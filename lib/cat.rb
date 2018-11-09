@@ -12,7 +12,7 @@ class Cat
   
   def initialize(name, mood)
     @name = name
-    @@cats << name
+    @@cats << name, mood
     @mood = mood
   end 
   
