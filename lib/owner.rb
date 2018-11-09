@@ -7,7 +7,7 @@ class Owner
   end
   
   def self.count
-    @@owners.count
+    @@owners.size
   end
   
   def species
