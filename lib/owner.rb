@@ -31,11 +31,10 @@ class Owner
   
   def buy_fish(fish)
     @pets[:fishes] << Fish.new(fish)
-    
   end
   
   def buy_cat
-    
+    @pets[:cats] << Cat
   end
   
   def buy_dog
