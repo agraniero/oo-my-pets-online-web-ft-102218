@@ -13,4 +13,9 @@ class Owner
     @species = species
     @@owners << self.name 
   end
+  
+  def say_species
+    
+  end
+  
 end
