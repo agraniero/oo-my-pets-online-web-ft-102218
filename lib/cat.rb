@@ -13,7 +13,7 @@ class Cat
   def initialize(name)
     @name = name
     @@cat << (name)
-    @mood = mood
+    @mood = "nervous"
   end 
   
   
