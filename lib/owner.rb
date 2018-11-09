@@ -1,3 +1,4 @@
 class Owner
-  # code goes here
+  def self.all 
+  end
 end
