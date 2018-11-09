@@ -6,6 +6,10 @@ class Owner
     @@owners
   end
   
+  def self.count
+    @@owners.count
+  end
+  
   def species
     @species
   end
