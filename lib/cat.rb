@@ -13,7 +13,7 @@ class Cat
   def initialize(name)
     @name = name
     @@cats << name
-    cat.name = self
+    
   end 
   
   
