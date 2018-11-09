@@ -1,14 +1,14 @@
 class Cat
-  attr_accessor :name, :mood
+  attr_accessor  :mood
   @@cats = []
   
   def name 
     @name  
   end 
   
-  def name=(name)
-    @name = name
-  end
+ # def name=(name)
+  #  @name = name
+  #end
   
   def initialize(name)
     @name = name
