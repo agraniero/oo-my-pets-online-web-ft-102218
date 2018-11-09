@@ -1,6 +1,6 @@
 class Cat
   attr_accessor  :mood
-  @@cats = []
+  @@cat = []
   
   def name 
     @name  
@@ -12,7 +12,7 @@ class Cat
   
   def initialize(name, mood)
     @name = name
-    @@cats << (name)
+    @@cat << (name)
     @mood = mood
   end 
   
