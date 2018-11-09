@@ -10,7 +10,7 @@ class Cat
   #  @name = name
   #end
   
-  def initialize(name, mood)
+  def initialize(name)
     @name = name
     @@cat << (name)
     @mood = mood
