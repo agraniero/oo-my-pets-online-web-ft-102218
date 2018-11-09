@@ -10,6 +10,10 @@ class Owner
     @@owners.size
   end
   
+  def self.reset_all
+    @@owners.clear
+  end
+  
   def species
     @species
   end
